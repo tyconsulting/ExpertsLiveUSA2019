@@ -17,6 +17,7 @@ The sample blueprint used in this demo was developed by Tao and it is published 
 **Spoke environment**
 This sample blueprint was developed by Alex and will deploy a net VNet in the spoke subscription and configure the VNet peering accross 2 subscriptions by using Azure Managed Identities.
 
+**Import Blueprints**
 To import the blueprint into your Azure environment, you must use the PowerShell script ***Manage-AzureRMBlueprint.ps1***, which is located at the [PowerShell Gallery](https://www.powershellgallery.com/packages/Manage-AzureRMBlueprint).
 
 ### Azure Policy
