@@ -10,7 +10,12 @@ This repository contains artifacts used in the demo of Alex and Tao's Azure Gove
 
 ## Demos
 ### Azure Blueprint
+
+**Hub environment**
 The sample blueprint used in this demo was developed by Tao and it is published at Alex Frankle's GitHub repo (Alex is a PM at the Azure Blueprint product team). You can find it [HERE](https://github.com/ajf214/personal-arm-templates/tree/master/Example%20Blueprints/managementSubConfig).
+
+**Spoke environment**
+This sample blueprint was developed by Alex and will deploy a net VNet in the spoke subscription and configure the VNet peering accross 2 subscriptions by using Azure Managed Identities.
 
 To import the blueprint into your Azure environment, you must use the PowerShell script ***Manage-AzureRMBlueprint.ps1***, which is located at the [PowerShell Gallery](https://www.powershellgallery.com/packages/Manage-AzureRMBlueprint).
 
